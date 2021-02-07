@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(248, 248, 248);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.wrapper {
+    padding: 60px 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+input {
+    border-style: none;
+    border: 1px solid rgb(63, 11, 148);
+    font-family: inherit;
+    font-size: 20px;
+    padding: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgb(63, 11, 148);
+    border-style: none;
+    color: rgb(248, 248, 248);
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px 0;
+    width: 40%;
+}
+
+.student-names {
+    margin: 40px 0;
+}
+
+.single-student {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 600px){
+    .wrapper {
+        text-align: center;
+    }
+
+    input {
+        display: block;
+        margin: 0 auto 20px;
+        width: 40%;
+    }
+}
